@@ -17,7 +17,7 @@ import { CiLink } from 'react-icons/ci'
 const page = () => {
   return (
     <>
-      <div className="px-10 md:px-10 lg:px-40">
+      <div className="px-10 md:px-10 lg:px-40 bg-gradient-to-r from-gray-950 to-gray-800">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between text-sm md:text-md ">
             <h1 className="font-serif">itsharshcheema@gmail.com</h1>
@@ -110,7 +110,7 @@ const page = () => {
               <Image
                 alt="project"
                 src={Auth}
-                className="max-w-60 max-h-60 rounded-md shadow-xl shadow-teal-950 mb-10 md:mb-0 max-w-80 max-h-80"
+                className="max-w-60 max-h-60 rounded-md shadow-xl shadow-teal-950 mb-10 md:mb-0"
               />
               <div className="flex justify-between items-center gap-5 ">
                 <h6 className="py-3">Mern Authentication System</h6>
@@ -136,7 +136,7 @@ const page = () => {
               <Image
                 alt="project"
                 src={Chat}
-                className="max-w-60 max-h-60 rounded-md shadow-xl shadow-teal-950 mb-10 md:mb-0 max-w-80 max-h-80 "
+                className="max-w-60 max-h-60 rounded-md shadow-xl shadow-teal-950 mb-10 md:mb-0"
               />
               <div className="flex justify-between items-center gap-5 ">
                 {' '}
