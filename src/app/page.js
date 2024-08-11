@@ -50,7 +50,7 @@ const page = () => {
               </div>
             </div>
             <p className="text-sm py-5 leading-8 text-gray-400">
-              I'm a passionate software developer who loves building scalable
+              I am a passionate software developer who loves building scalable
               and efficient applications using React, Node.js,Express.js and
               MongoDB.
             </p>
