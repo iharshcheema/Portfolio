@@ -25,7 +25,7 @@ const page = () => {
               <li>
                 {' '}
                 <a
-                  href="https://drive.google.com/file/d/1J1vWUlu247o2LoEOPPx8_uVjy_RVfG63/view?usp=drivesdk"
+                  href="https://drive.google.com/file/d/1OJ4BvCSLslB3G0bjHGJKcQzqA7IQrFzx/view?usp=drivesdk"
                   className=" bg-gradient-to-r from-cyan-500 to-teal-400 px-4 py-2 rounded-md ml-8"
                 >
                   Resume
