@@ -25,7 +25,7 @@ const page = () => {
               <li>
                 {' '}
                 <a
-                  href="https://drive.google.com/file/d/1ZA9hE93JPHRlsq9-K6yWde_f5M8cQc9S/view?usp=drivesdk"
+                  href="https://drive.google.com/file/d/1J1vWUlu247o2LoEOPPx8_uVjy_RVfG63/view?usp=drivesdk"
                   className=" bg-gradient-to-r from-cyan-500 to-teal-400 px-4 py-2 rounded-md ml-8"
                 >
                   Resume
@@ -110,7 +110,7 @@ const page = () => {
               <Image
                 alt="project"
                 src={Auth}
-                className="max-w-80 max-h-80 rounded-full object-cover object-center shadow-xl shadow-teal-950"
+                className="max-w-60 max-h-60 rounded-md shadow-xl shadow-teal-950 mb-10 md:mb-0 max-w-80 max-h-80"
               />
               <div className="flex justify-between items-center gap-5 ">
                 <h6 className="py-3">Mern Authentication System</h6>
@@ -136,7 +136,7 @@ const page = () => {
               <Image
                 alt="project"
                 src={Chat}
-                className="max-w-80 max-h-80 rounded-full object-cover object-center shadow-xl shadow-teal-950"
+                className="max-w-60 max-h-60 rounded-md shadow-xl shadow-teal-950 mb-10 md:mb-0 max-w-80 max-h-80 "
               />
               <div className="flex justify-between items-center gap-5 ">
                 {' '}
