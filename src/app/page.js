@@ -102,59 +102,95 @@ const page = () => {
             Click on the Card to access the link of the deployed project.
           </p>
           {/* PROJECTS */}
-          <div className="grid grid-cols-1  md:grid-cols-2 gap-20">
-            {/* project 1  */}
-            <a
-              href="https://mern-auth-react.vercel.app"
-              className="cursor-pointer"
-            >
-              <div className="flex flex-col items-center shadow-lg shadow-teal-950 p-10 rounded-xl my-10 text-center transform transition duration-300 hover:scale-105 hover:shadow-2xl">
+          <div className="grid grid-cols-1 gap-10">
+            {/* Project 1 */}
+            <div className="flex flex-col md:flex-row items-center  rounded-xl overflow-hidden transition transform duration-300 hover:scale-105 hover:shadow-2xl mb-10">
+              {/* Left: Image + Links */}
+              <div className="flex flex-col items-center p-6 md:w-1/2 w-full">
                 <Image
                   alt="project"
                   src={Auth}
-                  className="max-w-60 max-h-60 rounded-md shadow-xl shadow-teal-950 mb-10 md:mb-0"
+                  className="w-60 md:w-72 lg:w-80 h-auto object-cover rounded-md shadow-xl shadow-teal-950 mb-4"
                 />
-                <div className="flex justify-between items-center gap-5 ">
-                  <h6 className="py-3">Mern Authentication System</h6>
+                <div className="flex gap-4">
+                  <a
+                    href="https://github.com/iharshcheema/mern-auth"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm text-white bg-teal-700 px-4 py-2 rounded hover:bg-teal-800 transition"
+                  >
+                    GitHub
+                  </a>
+                  <a
+                    href="https://mern-auth-react.vercel.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm text-white bg-teal-700 px-4 py-2 rounded hover:bg-teal-800 transition"
+                  >
+                    Live Link
+                  </a>
                 </div>
-                <p className="text-sm py-2 text-gray-400">
+              </div>
+
+              {/* Right: Description */}
+              <div className="p-6 text-center md:text-left md:w-1/2 w-full">
+                <h6 className="text-xl font-semibold mb-2">
+                  MERN Authentication System
+                </h6>
+                <p className="text-sm text-gray-400 mb-4">
                   A robust authentication system using JWT (JSON Web Tokens) and
                   bcrypt for password hashing and salting.
                 </p>
-                <h6 className="pb-1">Key Features</h6>
-                <p className="text-xs text-gray-400">OTP verification</p>
-                <p className="text-xs text-gray-400">
-                  Reset pasword using link
-                </p>
+                <h6 className="font-medium mb-1">Key Features</h6>
+                <ul className="text-xs text-gray-400 list-disc list-inside">
+                  <li>OTP verification</li>
+                  <li>Reset password using link</li>
+                </ul>
               </div>
-            </a>
+            </div>
 
-            {/* project 2  */}
-            <a
-              href="https://github.com/iharshcheema/Chatify"
-              className="cursor-pointer"
-            >
-              <div className="flex flex-col items-center shadow-lg shadow-teal-950 p-10 rounded-xl my-10 text-center transform transition duration-300 hover:scale-105 hover:shadow-2xl">
+            {/* Project 2 */}
+            <div className="flex flex-col md:flex-row items-center rounded-xl overflow-hidden transition transform duration-300 hover:scale-105 hover:shadow-2xl mb-10">
+              {/* Left: Image + Links */}
+              <div className="flex flex-col items-center p-6 md:w-1/2 w-full">
                 <Image
                   alt="project"
                   src={Chat}
-                  className="max-w-60 max-h-60 rounded-md shadow-xl shadow-teal-950 mb-10 md:mb-0"
+                  className="w-60 md:w-72 lg:w-80 h-auto object-cover rounded-md shadow-xl shadow-teal-950 mb-4"
                 />
-                <div className="flex justify-between items-center gap-5 ">
-                  {' '}
-                  <h6 className="py-3">Chat Application</h6>
+                <div className="flex gap-4">
+                  <a
+                    href="https://github.com/iharshcheema/Chatify"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm text-white bg-teal-700 px-4 py-2 rounded hover:bg-teal-800 transition"
+                  >
+                    GitHub
+                  </a>
+                  <a
+                    href="https://chatify-live.vercel.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm text-white bg-teal-700 px-4 py-2 rounded hover:bg-teal-800 transition"
+                  >
+                    Live Link
+                  </a>
                 </div>
-
-                <p className="text-sm py-2 text-gray-400">
-                  Leverages Socket.io for real time communication.
-                </p>
-                <h6 className="pb-1">Key Features</h6>
-                <p className="text-xs text-gray-400">
-                  Enable user to send message in real-time
-                </p>
-                <p className="text-xs text-gray-400">Group chats/Rooms</p>
               </div>
-            </a>
+
+              {/* Right: Description */}
+              <div className="p-6 text-center md:text-left md:w-1/2 w-full">
+                <h6 className="text-xl font-semibold mb-2">Chat Application</h6>
+                <p className="text-sm text-gray-400 mb-4">
+                  Leverages Socket.io for real-time communication.
+                </p>
+                <h6 className="font-medium mb-1">Key Features</h6>
+                <ul className="text-xs text-gray-400 list-disc list-inside">
+                  <li>Send messages in real-time</li>
+                  <li>Group chats / Rooms</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </section>
       </div>
